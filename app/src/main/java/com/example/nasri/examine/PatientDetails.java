@@ -50,7 +50,7 @@ public class PatientDetails extends AppCompatActivity {
         textViewExaminationComponent.setText("Name of the patient");
 
         textViewDetailedInstructions = findViewById(R.id.textViewDetailedInstructions);
-        textViewDetailedInstructions.setText("Name of the patient is important to correctly identify and will be useful when presenting the findings of the examination");
+        textViewDetailedInstructions.setText("Name of the patient is important to correctly identify. Name is used when presenting the examination findings. When examining a child, talk to the child using the name to build rapport.");
 
         editTextGetTextAnswer = findViewById(R.id.editTextGetTextAnswer);
         editTextGetTextAnswer.setInputType(InputType.TYPE_TEXT_VARIATION_PERSON_NAME);
@@ -61,7 +61,7 @@ public class PatientDetails extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 if (nameOfSystem.equals("the cardiovascular system")) {
-//Prompt sequence for CVS examination started.
+//Start prompt sequence for cvs examination
                     //Below is the sequence of prompts for the examination of CVS
 
                     if (textViewExaminationComponent.getText().toString().equals("Name of the patient")) {
@@ -70,7 +70,7 @@ public class PatientDetails extends AppCompatActivity {
                         //Get the name, write to summery and set screen for age
                         summery = "Name: " + editTextGetTextAnswer.getText().toString() + "\n";
                         textViewExaminationComponent.setText("Age");
-                        textViewDetailedInstructions.setText("Different diagnosis are more likely in different age groups. Congenital cardiac defects, coarctaion of areora are commoner in young pations whodle congestive hareat jajejojo");
+                        textViewDetailedInstructions.setText("Age is an important consideration when prioritizing the list of differntial diagnosis.");
                         editTextGetTextAnswer.setText("");
                         editTextGetTextAnswer.setHint("Age");
 
