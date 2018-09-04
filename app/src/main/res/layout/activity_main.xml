@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_cvs"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/btn_height"
+            android:text="@string/cvs" />
+
+        <Button
+            android:id="@+id/btn_respi"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/btn_height"
+            android:text="@string/respi" />
+
+        <Button
+            android:id="@+id/btn_abdomen"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/btn_height"
+            android:text="@string/abd" />
+
+        <Button
+            android:id="@+id/btn_cns"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/btn_height"
+            android:text="@string/cns" />
+
+        <Button
+            android:id="@+id/btn_pns"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/btn_height"
+            android:text="@string/pns" />
+
+        <Button
+            android:id="@+id/btn_ul"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/btn_height"
+            android:text="@string/ul" />
+
+        <Button
+            android:id="@+id/btn_ll"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/btn_height"
+            android:text="@string/ll" />
+
+        <Button
+            android:id="@+id/btn_neonate"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/btn_height"
+            android:text="@string/neonate" />
+
+        <Button
+            android:id="@+id/btn_obs"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/btn_height"
+            android:text="@string/obs" />
+
+        <Button
+            android:id="@+id/btn_pv"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/btn_height"
+            android:text="@string/pv" />
+
+        <Button
+            android:id="@+id/btn_pr"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/btn_height"
+            android:text="@string/pr" />
+
+        <Button
+            android:id="@+id/btn_thyroid"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/btn_height"
+            android:text="@string/thyroid" />
+
+        <Button
+            android:id="@+id/btn_hernia"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/btn_height"
+            android:text="@string/hernia" />
+
+        <Button
+            android:id="@+id/btn_lump"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/btn_height"
+            android:text="@string/lump" />
+
+        <Button
+            android:id="@+id/btn_breast"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/btn_height"
+            android:text="@string/breast" />
+
+        <Button
+            android:id="@+id/btn_knee"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/btn_height"
+            android:text="@string/knee" />
+
+        <Button
+            android:id="@+id/btn_about"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/btn_height"
+            android:text="@string/about" />
+    </LinearLayout>
+</ScrollView>
+
+
