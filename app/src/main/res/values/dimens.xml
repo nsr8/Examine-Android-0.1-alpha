@@ -2,5 +2,6 @@
 <resources>
     <dimen name="btn_height">125dip</dimen>
     <dimen name="mainbuttonmargin">10</dimen>
-    <dimen name="home_btn_fontsize"> 35sp</dimen>
+    <dimen name="mainActivityButtonPadding">25dp</dimen>
+    <dimen name="mainActivityButtonSize"> 25sp</dimen>
 </resources>

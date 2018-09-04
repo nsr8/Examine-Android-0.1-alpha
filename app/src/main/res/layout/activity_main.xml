@@ -9,109 +9,144 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+
         android:orientation="vertical">
 
         <Button
             android:id="@+id/btn_cvs"
             android:layout_width="match_parent"
-            android:layout_height="@dimen/btn_height"
-            android:text="@string/cvs" />
+            android:layout_height="wrap_content"
+            android:padding="@dimen/mainActivityButtonPadding"
+            android:text="@string/cvs"
+            android:textSize="@dimen/mainActivityButtonSize" />
 
         <Button
             android:id="@+id/btn_respi"
             android:layout_width="match_parent"
-            android:layout_height="@dimen/btn_height"
-            android:text="@string/respi" />
+            android:layout_height="wrap_content"
+            android:padding="@dimen/mainActivityButtonPadding"
+            android:text="@string/respi"
+            android:textSize="@dimen/mainActivityButtonSize" />
 
         <Button
             android:id="@+id/btn_abdomen"
             android:layout_width="match_parent"
-            android:layout_height="@dimen/btn_height"
-            android:text="@string/abd" />
+            android:layout_height="wrap_content"
+            android:padding="@dimen/mainActivityButtonPadding"
+            android:text="@string/abd"
+            android:textSize="@dimen/mainActivityButtonSize" />
 
         <Button
             android:id="@+id/btn_cns"
             android:layout_width="match_parent"
-            android:layout_height="@dimen/btn_height"
-            android:text="@string/cns" />
+            android:layout_height="wrap_content"
+            android:padding="@dimen/mainActivityButtonPadding"
+            android:text="@string/cns"
+            android:textSize="@dimen/mainActivityButtonSize" />
 
         <Button
             android:id="@+id/btn_pns"
             android:layout_width="match_parent"
-            android:layout_height="@dimen/btn_height"
-            android:text="@string/pns" />
+            android:layout_height="wrap_content"
+            android:padding="@dimen/mainActivityButtonPadding"
+            android:text="@string/pns"
+            android:textSize="@dimen/mainActivityButtonSize" />
 
         <Button
             android:id="@+id/btn_ul"
             android:layout_width="match_parent"
-            android:layout_height="@dimen/btn_height"
-            android:text="@string/ul" />
+            android:layout_height="wrap_content"
+            android:padding="@dimen/mainActivityButtonPadding"
+            android:text="@string/ul"
+            android:textSize="@dimen/mainActivityButtonSize" />
 
         <Button
             android:id="@+id/btn_ll"
             android:layout_width="match_parent"
-            android:layout_height="@dimen/btn_height"
-            android:text="@string/ll" />
+            android:layout_height="wrap_content"
+            android:padding="@dimen/mainActivityButtonPadding"
+            android:text="@string/ll"
+            android:textSize="@dimen/mainActivityButtonSize" />
 
         <Button
             android:id="@+id/btn_neonate"
             android:layout_width="match_parent"
-            android:layout_height="@dimen/btn_height"
-            android:text="@string/neonate" />
+            android:layout_height="wrap_content"
+            android:padding="@dimen/mainActivityButtonPadding"
+            android:text="@string/neonate"
+            android:textSize="@dimen/mainActivityButtonSize" />
 
         <Button
             android:id="@+id/btn_obs"
             android:layout_width="match_parent"
-            android:layout_height="@dimen/btn_height"
-            android:text="@string/obs" />
+            android:layout_height="wrap_content"
+            android:padding="@dimen/mainActivityButtonPadding"
+            android:text="@string/obs"
+            android:textSize="@dimen/mainActivityButtonSize" />
 
         <Button
             android:id="@+id/btn_pv"
             android:layout_width="match_parent"
-            android:layout_height="@dimen/btn_height"
-            android:text="@string/pv" />
+            android:layout_height="wrap_content"
+            android:padding="@dimen/mainActivityButtonPadding"
+            android:text="@string/pv"
+            android:textSize="@dimen/mainActivityButtonSize" />
 
         <Button
             android:id="@+id/btn_pr"
             android:layout_width="match_parent"
-            android:layout_height="@dimen/btn_height"
-            android:text="@string/pr" />
+            android:layout_height="wrap_content"
+            android:padding="@dimen/mainActivityButtonPadding"
+            android:text="@string/pr"
+            android:textSize="@dimen/mainActivityButtonSize" />
 
         <Button
             android:id="@+id/btn_thyroid"
             android:layout_width="match_parent"
-            android:layout_height="@dimen/btn_height"
-            android:text="@string/thyroid" />
+            android:layout_height="wrap_content"
+            android:padding="@dimen/mainActivityButtonPadding"
+            android:text="@string/thyroid"
+            android:textSize="@dimen/mainActivityButtonSize" />
 
         <Button
             android:id="@+id/btn_hernia"
             android:layout_width="match_parent"
-            android:layout_height="@dimen/btn_height"
-            android:text="@string/hernia" />
+            android:layout_height="wrap_content"
+            android:padding="@dimen/mainActivityButtonPadding"
+            android:text="@string/hernia"
+            android:textSize="@dimen/mainActivityButtonSize" />
 
         <Button
             android:id="@+id/btn_lump"
             android:layout_width="match_parent"
-            android:layout_height="@dimen/btn_height"
-            android:text="@string/lump" />
+            android:layout_height="wrap_content"
+            android:padding="@dimen/mainActivityButtonPadding"
+            android:text="@string/lump"
+            android:textSize="@dimen/mainActivityButtonSize" />
 
         <Button
             android:id="@+id/btn_breast"
             android:layout_width="match_parent"
-            android:layout_height="@dimen/btn_height"
-            android:text="@string/breast" />
+            android:layout_height="wrap_content"
+            android:padding="@dimen/mainActivityButtonPadding"
+            android:text="@string/breast"
+            android:textSize="@dimen/mainActivityButtonSize" />
 
         <Button
             android:id="@+id/btn_knee"
             android:layout_width="match_parent"
-            android:layout_height="@dimen/btn_height"
-            android:text="@string/knee" />
+            android:layout_height="wrap_content"
+            android:padding="@dimen/mainActivityButtonPadding"
+            android:text="@string/knee"
+            android:textSize="@dimen/mainActivityButtonSize" />
 
         <Button
             android:id="@+id/btn_about"
             android:layout_width="match_parent"
-            android:layout_height="@dimen/btn_height"
-            android:text="@string/about" />
+            android:layout_height="wrap_content"
+            android:padding="@dimen/mainActivityButtonPadding"
+            android:text="@string/about"
+            android:textSize="@dimen/mainActivityButtonSize" />
     </LinearLayout>
 </ScrollView>
 
